@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class InvalidDate {
+public class InvalidDate extends Exception{
+    public InvalidDate(){
+        super("Invalid date format");
+    }
 }
